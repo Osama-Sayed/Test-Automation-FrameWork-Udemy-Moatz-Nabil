@@ -16,10 +16,10 @@ public class ExcelReader {
         File srcFile = new File(filePath);
         try{file = new FileInputStream(srcFile);
 
-            System.out.println("File readed");
+            System.out.println("File readied");
         }
         catch (Exception e){
-            System.out.println("File not readed");
+            System.out.println("File not readied");
             System.out.println("Error: "+e.getMessage());
         }
         System.out.println(file.toString());
@@ -28,10 +28,10 @@ public class ExcelReader {
 
     public Object[][] getData() throws Exception {
         file = getFileInputStream();
-        System.out.println("sheet readed");
+        System.out.println("sheet readied");
             XSSFWorkbook wb = new XSSFWorkbook(file);
             XSSFSheet sheet = wb.getSheetAt(0);
-        System.out.println("sheet2 readed");
+        System.out.println("sheet2 readied");
             int totalNumberOfRows = (sheet.getLastRowNum()+1);
             int totalNumberOfCols = 4;
             String[][] arrayExcelData = new String[totalNumberOfRows][totalNumberOfCols];
