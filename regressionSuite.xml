@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+    <parameter name="browser" value="chrome"></parameter>
+    <test name="Regression Test" preserve-order="false">
+        <classes>
+            <class name="tests.ContactUsTest"></class>
+            <class name="tests.UserRegistrationTestWithJavaFaker"></class>
+            <class name="tests.AddProductToWishListTest"></class>
+            <class name="tests.SearchProductTest"></class>
+        </classes>
+    </test>
+</suite>
