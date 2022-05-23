@@ -6,7 +6,7 @@ import pages.HomePage;
 import pages.LoginPage;
 import pages.UserRegistrationPage;
 
-public class UserRegistrationParallelTest extends TestBaseForSeleniumGrid{
+public class UserRegistrationParallelTest extends TestBaseForSeleniumGrid_SauceLabs {
 
     HomePage homeObject;
     UserRegistrationPage registerObject;
