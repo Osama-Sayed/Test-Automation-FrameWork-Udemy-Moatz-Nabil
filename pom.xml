@@ -80,6 +80,12 @@
             <artifactId>gherkin</artifactId>
             <version>23.0.1</version>
         </dependency>
+        <dependency>
+            <groupId>com.saucelabs</groupId>
+            <artifactId>saucerest</artifactId>
+            <version>1.0.40</version>
+            <scope>test</scope>
+        </dependency>
 
     <!--    <dependency>
             <groupId>com.comcast.magic-wand</groupId>
