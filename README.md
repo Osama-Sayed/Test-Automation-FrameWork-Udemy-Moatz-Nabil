@@ -4,7 +4,7 @@
 * POM design pattern
 * CI/CD
 * Selenium Grid
-* Alure reporting 
+* Allure reporting 
 * Running Script on Cloud Using Sauce Labs
 * Running Automation script using Zalenium & Docker
 
