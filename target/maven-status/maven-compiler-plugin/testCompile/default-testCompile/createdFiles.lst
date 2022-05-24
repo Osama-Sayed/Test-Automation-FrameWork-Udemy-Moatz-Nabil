@@ -14,9 +14,9 @@ tests\AddProductReviewTest.class
 tests\SearchProductTest.class
 tests\TestBase.class
 tests\UserRegistrationParallelTest.class
-tests\TestBaseForSeleniumGrid.class
 tests\UserRegistrationTestWithJavaFaker.class
 tests\AddToShoppingCartTest.class
+tests\TestBaseForSeleniumGrid_SauceLabs.class
 tests\UserRegistrationTestWithDDTAndCSV.class
 data\ExcelReader.class
 tests\ChangeCurrencyTest.class
